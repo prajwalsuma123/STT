@@ -31,7 +31,7 @@ public class AudioClientVosk extends WebSocketClient{
         logger.info("Web Socket connection established");
         JSONObject outer=new JSONObject();
         JSONObject conf=new JSONObject();
-        outer.put("config",conf.put("sample_rate",44100));
+        outer.put("config",conf.put("sample_rate",60000));
         outer.put("config",conf.put("num_channels", 1));
         this.send(outer.toString());
     }
