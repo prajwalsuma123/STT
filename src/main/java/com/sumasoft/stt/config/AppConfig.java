@@ -1,18 +1,49 @@
 package com.sumasoft.stt.config;
 
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
+
+//@Configuration
+//@ConfigurationProperties(prefix = "myapp")
 @Component
-@Getter@Setter
-@ConfigurationProperties(prefix = "db")
 public class AppConfig {
 
-    private String url;
-    private String username;
+//    @Value("${myapp.name}")
+    String name;
+//    @Value("${myapp.version}")
+    String version;
+//    @Value("${myapp.build}")
+    int build;
+
+//    public AppConfig(@Value("${myapp.name}") String name){
+//        this.name=name;
+//    }
+    
+
+    
+    public AppConfig(){}
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUsername() {
+        return version;
+    }
+
+    public void setUsername(String version) {
+        this.version = version;
+    }
+
+    public int getBuild() {
+        return build;
+    }
+
+    public void setBuild(int build) {
+        this.build = build;
+    }
 }

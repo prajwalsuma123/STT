@@ -1,36 +1,31 @@
 package com.sumasoft.stt.audio;
 
-import com.sumasoft.stt.utils.ExecutionContext;
-import org.springframework.beans.factory.annotation.Autowired;
 
+import com.sumasoft.stt.client.AudioVoskClient;
+import org.springframework.stereotype.Component;
+
+import java.net.URI;
+
+@Component
 public class AudioConfig {
-
-    @Autowired
-    public Microphone microphone;
     
-    //public ExecutionContext executionContext;
-
+    AudioVoskClient client;
+    
     public AudioConfig(){
-
-    }
-
-    public void fromMicrophone(ExecutionContext executionContext){
-
-        try {
-            microphone.initialize();
+        try
+        {
+            URI uri=(new URI("ws://192.168.100.37:2700"));
+            this.client=new AudioVoskClient(uri);
+            client.connectBlocking();
         }
         catch (Exception e){
-            System.out.println(e);
             e.printStackTrace();
         }
-
+    
     }
-
-    public void fromAudioStream(){
-
-    }
-
-    public void fromAudioFile(){
-
+    
+    public void sendByteArray(byte[] bytes){
+        
+        this.client.send(bytes);
     }
 }

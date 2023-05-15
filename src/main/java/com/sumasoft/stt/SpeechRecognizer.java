@@ -1,7 +1,7 @@
 package com.sumasoft.stt;
 
 
-import com.sumasoft.stt.client.AudioClientVosk;
+import com.sumasoft.stt.client.AudioVoskClient;
 
 import javax.sound.sampled.*;
 import java.io.*;
@@ -66,7 +66,7 @@ public class SpeechRecognizer {
                      * Client object creation
                      */
                     URI uri=new URI("ws://192.168.100.37:2700");
-                    AudioClientVosk client = new AudioClientVosk(uri);
+                    AudioVoskClient client = new AudioVoskClient(uri);
 
                     client.connectBlocking();
 

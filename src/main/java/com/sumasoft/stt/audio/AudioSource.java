@@ -11,8 +11,11 @@ public interface AudioSource {
      * Get the Audioformate
      * @return
      */
+    public float sampleRate=16000;
     public static AudioFormat getAudioFormat(){
-        AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 60000, 16, 1, 1, 8000.0f, false);
+        //AudioFormat format = new AudioFormat( 160000, 16,1,  true, false);
+        AudioFormat format = new AudioFormat(sampleRate, 16, 1,  true, false);
+
         return format;
     }
 

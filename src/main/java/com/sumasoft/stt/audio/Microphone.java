@@ -1,60 +1,46 @@
 package com.sumasoft.stt.audio;
 
-import com.sumasoft.stt.client.AudioClientVosk;
-import com.sumasoft.stt.utils.ExecutionContext;
-import org.slf4j.LoggerFactory;
-import org.slf4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.sumasoft.stt.client.AudioVoskClient;
+import org.json.JSONObject;
 
 import javax.sound.sampled.*;
+import java.io.ByteArrayOutputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-/**
- *This class is used to send audio data to vosk server 
- * using microphone as an input
- */
-
-public class Microphone implements AudioSource{
-
-    public static final Logger logger= LoggerFactory.getLogger(Microphone.class);
-    public float sampleRate=8000.0f;
-    public int CHUNK_SIZE=1024;
-    byte[] b = new byte[4096];
-    int bytesRead=0;
-    int numBytesRead;
-
-    public AudioClientVosk audioClientVosk;
-
-    @Autowired
-    ExecutionContext executionContext;
-
-    AudioFormat format = AudioSource.getAudioFormat();
+public class Microphone {
+    public float sampleRate=60000;
+    //  AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, sampleRate, 16, 1, 2, 8000.0f, false);
+    AudioFormat format = new AudioFormat(sampleRate, 16, 1,  true, false);
     public DataLine.Info info = new DataLine.Info(TargetDataLine.class, format);
+
     public TargetDataLine microphone;
+    public SourceDataLine speakers;
 
 
-    /**
-     * This method initialize Aunthenticat
-     * @throws LineUnavailableException
-     * @throws URISyntaxException
-     * @throws InterruptedException
-     */
-    public void initialize() throws LineUnavailableException, URISyntaxException, InterruptedException {
-        logger.info("initializing microphone");
+
+    public void startMicrophone() throws InterruptedException, URISyntaxException, LineUnavailableException {
+        URI uri=(new URI("ws://192.168.100.37:2700"));
+        AudioVoskClient client=new AudioVoskClient(uri);
+        client.connectBlocking();
+        System.out.println("Client & Server connected sucessfully");
+
+        JSONObject outer=new JSONObject();
+        JSONObject conf=new JSONObject();
+        outer.put("config",conf.put("sample_rate",sampleRate));
+        //  outer.put("config",conf.put("num_channels", 1));
+        client.send(outer.toString());
+
         microphone = (TargetDataLine) AudioSystem.getLine(info);
         microphone.open(format);
         microphone.start();
-        this.audioClientVosk=new AudioClientVosk(new URI("ws://192.168.100.37:2700"));
-        this.audioClientVosk.connectBlocking();
-        logger.info("Audiovosk client connected sucessfully");
-        send();
-    }
 
-    /**
-     * Send the Audio data to vosk server
-     */
-    private void send() {
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        int numBytesRead;
+        int CHUNK_SIZE =1024;
+        int bytesRead = 0;
+
+        byte[] b = new byte[1024];
 
         while (bytesRead <= 100000000) {
             numBytesRead = microphone.read(b, 0, CHUNK_SIZE);
@@ -63,20 +49,9 @@ public class Microphone implements AudioSource{
             /**
              * Send byte aaray
              */
-            logger.info("sending to to vosk server");
-            this.audioClientVosk.send(b);
+            client.send(b);
 
         }
+
     }
-
-    /**
-     * Stop the microphone
-     */
-    public void stop(){
-        microphone.close();
-    }
-
-
-
-
 }
