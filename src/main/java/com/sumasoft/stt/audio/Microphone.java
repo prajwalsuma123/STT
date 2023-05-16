@@ -19,39 +19,6 @@ public class Microphone {
 
 
 
-    public void startMicrophone() throws InterruptedException, URISyntaxException, LineUnavailableException {
-        URI uri=(new URI("ws://192.168.100.37:2700"));
-        AudioVoskClient client=new AudioVoskClient(uri);
-        client.connectBlocking();
-        System.out.println("Client & Server connected sucessfully");
-
-        JSONObject outer=new JSONObject();
-        JSONObject conf=new JSONObject();
-        outer.put("config",conf.put("sample_rate",sampleRate));
-        //  outer.put("config",conf.put("num_channels", 1));
-        client.send(outer.toString());
-
-        microphone = (TargetDataLine) AudioSystem.getLine(info);
-        microphone.open(format);
-        microphone.start();
-
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        int numBytesRead;
-        int CHUNK_SIZE =1024;
-        int bytesRead = 0;
-
-        byte[] b = new byte[1024];
-
-        while (bytesRead <= 100000000) {
-            numBytesRead = microphone.read(b, 0, CHUNK_SIZE);
-            bytesRead += numBytesRead;
-
-            /**
-             * Send byte aaray
-             */
-            client.send(b);
-
-        }
-
+    public void startMicrophone(){
     }
 }

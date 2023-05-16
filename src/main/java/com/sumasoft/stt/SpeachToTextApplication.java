@@ -1,8 +1,6 @@
 package com.sumasoft.stt;
 
-import com.sumasoft.stt.audio.AudioConfig;
 import com.sumasoft.stt.audio.AudioFile;
-import com.sumasoft.stt.audio.Microphone;
 import com.sumasoft.stt.config.AppConfig;
 import com.sumasoft.stt.user.AunthenticateUser;
 import org.slf4j.Logger;
@@ -21,7 +19,7 @@ import java.security.NoSuchAlgorithmException;
 public class SpeachToTextApplication {
 
 	public static final Logger logger= LoggerFactory.getLogger(SpeachToTextApplication.class);
-	
+
 	public static void main(String[] args) throws IOException, URISyntaxException, NoSuchAlgorithmException, LineUnavailableException, InterruptedException {
 		ApplicationContext applicationContext= SpringApplication.run(SpeachToTextApplication.class, args);
 		getSysteminfo();
@@ -33,16 +31,17 @@ public class SpeachToTextApplication {
 
 //			Microphone microphone=new Microphone();
 //			microphone.startMicrophone();
-			try
-			{
+			try {
 				AudioFile audioFile=new AudioFile();
 				audioFile.sendAudio();
+//				Microphone microphone=new Microphone();
+//				microphone.startMicrophone();
 			}
 			catch (Exception e){
-				
+
 			}
-			
-		
+
+
 		}
 
 	}

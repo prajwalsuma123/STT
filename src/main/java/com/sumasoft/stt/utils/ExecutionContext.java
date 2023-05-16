@@ -5,6 +5,7 @@ import com.sumasoft.stt.client.AudioVoskClient;
 import com.sumasoft.stt.config.AppConfig;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -43,7 +44,7 @@ public class ExecutionContext {
         this.speechConfig = speechConfig;
     }
 
-    public AudioVoskClient getAudioClientVosk(URI uri) {
+    public AudioVoskClient getAudioClientVosk(URI uri) throws IOException {
         if(this.audioClientVosk!=null){
             return this.audioClientVosk=new AudioVoskClient(uri);
         }

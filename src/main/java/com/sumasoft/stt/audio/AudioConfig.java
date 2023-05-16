@@ -14,9 +14,9 @@ public class AudioConfig {
     public AudioConfig(){
         try
         {
-            URI uri=(new URI("ws://192.168.100.37:2700"));
-            this.client=new AudioVoskClient(uri);
-            client.connectBlocking();
+//            URI uri=(new URI("ws://192.168.100.37:2700"));
+//            this.client=new AudioVoskClient();
+//            client.connectBlocking();
         }
         catch (Exception e){
             e.printStackTrace();

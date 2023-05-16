@@ -1,0 +1,531 @@
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : "also read"
+}
+{
+  "partial" : "also read"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "partial" : "also referred"
+}
+{
+  "result" : [{
+      "conf" : 0.980530,
+      "end" : 4.710006,
+      "start" : 4.260000,
+      "word" : "also"
+    }, {
+      "conf" : 0.794634,
+      "end" : 5.099947,
+      "start" : 4.710006,
+      "word" : "referred"
+    }, {
+      "conf" : 0.480967,
+      "end" : 5.580000,
+      "start" : 5.100130,
+      "word" : "as"
+    }],
+  "text" : "also referred as"
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : "was"
+}
+{
+  "partial" : "was"
+}
+{
+  "partial" : "she was"
+}
+{
+  "partial" : "she was"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler"
+}
+{
+  "partial" : "she was born and indian ruler and"
+}
+{
+  "partial" : "she was born and indian ruler and"
+}
+{
+  "partial" : "she was born and indian ruler and"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of both"
+}
+{
+  "partial" : "she was born and indian ruler and member of both"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "partial" : "she was born and indian ruler and member of"
+}
+{
+  "result" : [{
+      "conf" : 0.388878,
+      "end" : 6.720389,
+      "start" : 6.570515,
+      "word" : "she"
+    }, {
+      "conf" : 1.000000,
+      "end" : 8.129285,
+      "start" : 7.799372,
+      "word" : "was"
+    }, {
+      "conf" : 0.999946,
+      "end" : 8.700000,
+      "start" : 8.130000,
+      "word" : "born"
+    }, {
+      "conf" : 0.946514,
+      "end" : 9.390000,
+      "start" : 9.120000,
+      "word" : "an"
+    }, {
+      "conf" : 0.999949,
+      "end" : 9.810000,
+      "start" : 9.390414,
+      "word" : "indian"
+    }, {
+      "conf" : 0.982560,
+      "end" : 10.350000,
+      "start" : 9.810000,
+      "word" : "ruler"
+    }, {
+      "conf" : 0.994953,
+      "end" : 10.920905,
+      "start" : 10.650000,
+      "word" : "and"
+    }, {
+      "conf" : 0.828556,
+      "end" : 10.979346,
+      "start" : 10.920905,
+      "word" : "a"
+    }, {
+      "conf" : 1.000000,
+      "end" : 11.370000,
+      "start" : 10.979346,
+      "word" : "member"
+    }, {
+      "conf" : 1.000000,
+      "end" : 11.729980,
+      "start" : 11.370000,
+      "word" : "of"
+    }, {
+      "conf" : 0.557324,
+      "end" : 12.270000,
+      "start" : 11.910000,
+      "word" : "both"
+    }],
+  "text" : "she was born an indian ruler and a member of both"
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : ""
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out it"
+}
+{
+  "partial" : "she was carried out it"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out"
+}
+{
+  "partial" : "she was carried out its own"
+}
+{
+  "partial" : "she was carried out its own"
+}
+{
+  "partial" : "she was carried out its own"
+}
+{
+  "partial" : "she was carried out its own"
+}
+{
+  "partial" : "she was carried out its own"
+}
+{
+  "partial" : "she was carried out its own independent"
+}
+{
+  "partial" : "she was carried out its own independent"
+}
+{
+  "partial" : "she was carried out its own independent"
+}
+{
+  "partial" : "she was carried out its own independent"
+}
+{
+  "partial" : "she was carried out its own independent kingdom"
+}
+{
+  "partial" : "she was carried out its own independent kingdom"
+}
+{
+  "partial" : "she was carried out its own independent kingdom"
+}
+{
+  "partial" : "she was carried out its own independent kingdom"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from from the"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from from the"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from from the"
+}
+{
+  "partial" : "she was carried out its own independent kingdom from from the"
+}
