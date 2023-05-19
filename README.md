@@ -20,6 +20,13 @@
     - Samplerate is an integer type of variable.What type of samplerate stream you are passing pass this value as a sample rate.
 - **AcceptAudio** contains send method.Using send method you can pass your audio stream to library.
    
+# Sample code to use Library
+- AcceptAudio audio=new AcceptAudio(60000);
+- audio.send(buffer[]);
+
+**Note:**
+- 60000 is samplerate.
+- buffer is an array of streaming audio data.
 
 
 
