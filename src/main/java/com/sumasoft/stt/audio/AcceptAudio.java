@@ -2,10 +2,14 @@ package com.sumasoft.stt.audio;
 
 import com.sumasoft.stt.client.AudioClient;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.net.URI;
 
 public class AcceptAudio {
+    public static final Logger logger= LoggerFactory.getLogger(AcceptAudio.class);
+
 
     AudioClient client;
 
@@ -13,7 +17,6 @@ public class AcceptAudio {
         URI uri=(new URI("ws://192.168.100.37:2700"));
         client=new AudioClient(uri);
         client.connectBlocking();
-        System.out.println("Client & Server connected sucessfully");
 
         //send configuration
         JSONObject outer=new JSONObject();
