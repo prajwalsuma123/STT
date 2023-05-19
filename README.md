@@ -16,12 +16,10 @@
 
 # How to use Library
 - Create instance of **AcceptAudio** class by passing samplerate as a constructor agrument.
-    - AcceptAudio audio=new AcceptAudio(60000);
     - What is samplerate?
     - Samplerate is an integer type of variable.What type of samplerate stream you are passing pass this value as a sample rate.
 - **AcceptAudio** contains send method.Using send method you can pass your audio stream to library.
-    - audio.send(buffer).
-    - **Note :** buffer is an array of streaming data.
+   
 
 
 
