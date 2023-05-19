@@ -68,3 +68,45 @@
 2023-05-12 10:53:02.267 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
 2023-05-12 10:53:02.371 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
 2023-05-12 10:53:02.371 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-19 17:15:22.534 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 12769 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
+2023-05-19 17:15:22.537 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-19 17:15:23.232 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 1.036 seconds (JVM running for 1.468)
+2023-05-19 17:15:23.235 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
+2023-05-19 17:15:23.236 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:15:23.237 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
+2023-05-19 17:15:23.237 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
+2023-05-19 17:15:23.341 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
+2023-05-19 17:15:23.342 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-19 17:20:40.839 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 13718 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
+2023-05-19 17:20:40.842 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-19 17:20:41.272 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.747 seconds (JVM running for 1.113)
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
+2023-05-19 17:20:41.274 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:20:41.275 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
+2023-05-19 17:20:41.275 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
+2023-05-19 17:20:41.403 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
+2023-05-19 17:20:41.403 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-19 17:22:11.347 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 13932 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
+2023-05-19 17:22:11.349 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-19 17:22:11.759 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.779 seconds (JVM running for 1.163)
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
+2023-05-19 17:22:11.762 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-19 17:22:11.763 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
+2023-05-19 17:22:11.763 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
+2023-05-19 17:22:11.878 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
+2023-05-19 17:22:11.878 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
