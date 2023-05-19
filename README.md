@@ -22,5 +22,11 @@
 - Using send method you can pass your audio stream to library
 
 
+# Example of Sample code how you can use
+- Syntax
+- AcceptAudio audio=new AcceptAudio(60000);
+- audio.send(buffer)
+- **Note :** buffer is an array of streaming data
+
 
 
