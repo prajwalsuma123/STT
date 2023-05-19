@@ -6,9 +6,9 @@ import org.java_websocket.handshake.ServerHandshake;
 
 import java.net.URI;
 
-public class AudioVoskClient extends WebSocketClient {
+public class AudioClient extends WebSocketClient {
     
-    public AudioVoskClient(URI serverUri) {
+    public AudioClient(URI serverUri) {
         super(serverUri);
     }
     
