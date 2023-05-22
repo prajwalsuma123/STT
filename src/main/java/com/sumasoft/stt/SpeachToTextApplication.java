@@ -4,6 +4,8 @@ import com.sumasoft.stt.audio.AudioConfig;
 import com.sumasoft.stt.audio.AudioFile;
 import com.sumasoft.stt.audio.Microphone;
 import com.sumasoft.stt.config.AppConfig;
+import com.sumasoft.stt.result.ConcretSubscriber;
+import com.sumasoft.stt.result.Subscriber;
 import com.sumasoft.stt.user.AunthenticateUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,21 +29,26 @@ public class SpeachToTextApplication {
 		getSysteminfo();
 		applicationContext.getEnvironment().getProperty("myapp.name");
 		AunthenticateUser aunthenticateUser=new AunthenticateUser();
+		ConcretSubscriber s1=new ConcretSubscriber("Prajwal");
 
 		if(aunthenticateUser.aunthenticateUser("98d0c598-eb03-11ed-a05b-0242ac120003")){
 			logger.info("User Authenticated Sucessfully");
 
-//			Microphone microphone=new Microphone();
-//			microphone.startMicrophone();
-			try
-			{
-				AudioFile audioFile=new AudioFile();
+			try{
+//				Microphone microphone=new Microphone(s1);
+//				microphone.startMicrophone();
+			}
+			catch (Exception e){
+				e.printStackTrace();
+			}
+			
+			try {
+				AudioFile audioFile=new AudioFile(s1);
 				audioFile.sendAudio();
 			}
 			catch (Exception e){
 				
 			}
-			
 		
 		}
 
