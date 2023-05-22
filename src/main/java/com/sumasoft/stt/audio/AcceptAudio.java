@@ -1,19 +1,22 @@
 package com.sumasoft.stt.audio;
 
-import com.sumasoft.stt.client.AudioVoskClient;
-import com.sumasoft.stt.response.Response;
+import com.sumasoft.stt.client.AudioClient;
+import com.sumasoft.stt.result.Channel;
+import com.sumasoft.stt.result.Subscriber;
 import org.json.JSONObject;
 
 import java.net.URI;
 
-public class AcceptStream {
+public class AcceptAudio {
 
-    AudioVoskClient client;
-    Response response=new Response();
+    AudioClient client;
+    Channel channel;
 
-    public AcceptStream(int sampleRate) throws Exception{
+    public AcceptAudio(int sampleRate, Subscriber subscriber) throws Exception{
+        this.channel=new Channel();
+        addSubscriber(subscriber);
         URI uri=(new URI("ws://192.168.100.37:2700"));
-        client=new AudioVoskClient(uri);
+        client=new AudioClient(uri,channel);
         client.connectBlocking();
         System.out.println("Client & Server connected sucessfully");
 
@@ -24,8 +27,10 @@ public class AcceptStream {
         //  outer.put("config",conf.put("num_channels", 1));
         client.send(outer.toString());
     }
-    
-    
+    public void addSubscriber(Subscriber subscriber){
+        this.channel.subscriber(subscriber);
+    }
+
     public void acceptStream(byte[] b){
         client.send(b);
     }

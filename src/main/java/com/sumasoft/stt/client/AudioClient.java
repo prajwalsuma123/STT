@@ -1,15 +1,17 @@
 package com.sumasoft.stt.client;
 
-import com.sumasoft.stt.response.Response;
+import com.sumasoft.stt.result.Channel;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 
 import java.net.URI;
 
-public class AudioVoskClient extends WebSocketClient {
+public class AudioClient extends WebSocketClient {
+    public Channel channel;
     
-    public AudioVoskClient(URI serverUri) {
+    public AudioClient(URI serverUri,Channel channel) {
         super(serverUri);
+        this.channel=channel;
     }
     
     
@@ -21,7 +23,8 @@ public class AudioVoskClient extends WebSocketClient {
 
     @Override
     public void onMessage(String s) {
-        System.out.println("Message recived from Server :"+s.toString());
+       // System.out.println("Message recived from Server :"+s.toString());
+        channel.notifySubscriber(s);
     }
 
     @Override
