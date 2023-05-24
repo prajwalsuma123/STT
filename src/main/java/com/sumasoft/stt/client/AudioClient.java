@@ -23,7 +23,6 @@ public class AudioClient extends WebSocketClient {
 
     @Override
     public void onMessage(String s) {
-//        logger.info("Message from Server :"+s.toString());
         if(s.contains("result")){
             this.abstractNotifiable.resultText(s);
         }
