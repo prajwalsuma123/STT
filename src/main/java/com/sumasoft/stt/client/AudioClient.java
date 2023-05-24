@@ -1,6 +1,6 @@
 package com.sumasoft.stt.client;
 
-import com.sumasoft.stt.result.AbstractNotifiable;
+import com.sumasoft.stt.result.ResultNotifiable;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 import org.slf4j.Logger;
@@ -9,8 +9,8 @@ import java.net.URI;
 
 public class AudioClient extends WebSocketClient {
     public static final Logger logger= LoggerFactory.getLogger(AudioClient.class);
-    AbstractNotifiable abstractNotifiable;
-    public AudioClient(URI serverUri, AbstractNotifiable abstractNotifiable) {
+    ResultNotifiable abstractNotifiable;
+    public AudioClient(URI serverUri, ResultNotifiable abstractNotifiable) {
         super(serverUri);
         this.abstractNotifiable=abstractNotifiable;
     }
