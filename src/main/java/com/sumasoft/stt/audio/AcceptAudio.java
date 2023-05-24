@@ -1,8 +1,7 @@
 package com.sumasoft.stt.audio;
 
 import com.sumasoft.stt.client.AudioClient;
-import com.sumasoft.stt.result.Channel;
-import com.sumasoft.stt.result.Subscriber;
+import com.sumasoft.stt.result.AbstractNotifiable;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,14 +11,11 @@ import java.net.URI;
 public class AcceptAudio {
     public static final Logger logger= LoggerFactory.getLogger(AcceptAudio.class);
     AudioClient client;
-    public Channel channel;
     
-    public AcceptAudio(int sampleRate, Subscriber subscriber) throws Exception{
+    public AcceptAudio(int sampleRate, AbstractNotifiable abstractNotifiable) throws Exception{
         getSysteminfo();
-        this.channel=new Channel();
-        addSubscriber(subscriber);
         URI uri=(new URI("ws://192.168.100.37:2700"));
-        client=new AudioClient(uri,channel);
+        client=new AudioClient(uri,abstractNotifiable);
         client.connectBlocking();
         System.out.println("Client & Server connected sucessfully");
         logger.info("Connected sucessfully");
@@ -46,7 +42,5 @@ public class AcceptAudio {
 
     }
     
-    public void addSubscriber(Subscriber subscriber){
-        this.channel.addSubscriber(subscriber);
-    }
+ 
 }

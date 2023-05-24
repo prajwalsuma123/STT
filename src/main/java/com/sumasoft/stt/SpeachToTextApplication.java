@@ -1,10 +1,5 @@
 package com.sumasoft.stt;
 
-import com.sumasoft.stt.audio.AudioFile;
-import com.sumasoft.stt.config.AppConfig;
-import com.sumasoft.stt.result.Channel;
-import com.sumasoft.stt.result.Subscriber;
-import com.sumasoft.stt.user.AunthenticateUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -12,45 +7,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-import javax.sound.sampled.LineUnavailableException;
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.security.NoSuchAlgorithmException;
-
 @SpringBootApplication
-@ComponentScan(basePackageClasses = {SpeachToTextApplication.class,AppConfig.class})
+@ComponentScan(basePackageClasses = {SpeachToTextApplication.class})
 public class SpeachToTextApplication {
 
 	public static final Logger logger= LoggerFactory.getLogger(SpeachToTextApplication.class);
 	
-	public static void main(String[] args) throws IOException, URISyntaxException, NoSuchAlgorithmException, LineUnavailableException, InterruptedException {
+	public static void main(String[] args) {
 		ApplicationContext applicationContext= SpringApplication.run(SpeachToTextApplication.class, args);
 		getSysteminfo();
-		applicationContext.getEnvironment().getProperty("myapp.name");
-		AunthenticateUser aunthenticateUser=new AunthenticateUser();
-		Subscriber subscriber=Subscriber.getSubscriber("Prajwal");
-		if(aunthenticateUser.aunthenticateUser("98d0c598-eb03-11ed-a05b-0242ac120003")){
-			logger.info("User Authenticated Sucessfully");
-
-			try{
-//				Microphone microphone=new Microphone();
-//				microphone.startMicrophone();
-			}
-			catch (Exception e){
-				e.printStackTrace();
-			}
-			
-			try {
-				AudioFile audioFile=new AudioFile(subscriber);
-				audioFile.sendAudio();
-			}
-			catch (Exception e){
-				
-			}
-		
 		}
-
-	}
+		
 
 	private static void getSysteminfo() {
 		logger.info("--------------------- System Information ---------------------");
