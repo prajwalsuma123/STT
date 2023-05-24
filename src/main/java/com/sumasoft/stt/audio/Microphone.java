@@ -1,7 +1,7 @@
 package com.sumasoft.stt.audio;
 
-import com.sumasoft.stt.result.ConcretSubscriber;
 import com.sumasoft.stt.result.Subscriber;
+
 import javax.sound.sampled.*;
 import java.io.ByteArrayOutputStream;
 import java.net.URISyntaxException;
@@ -15,7 +15,7 @@ public class Microphone {
     public TargetDataLine microphone;
     public AcceptAudio acceptAudio;
     
-    public Microphone(ConcretSubscriber subscriber) throws Exception {
+    public Microphone(Subscriber subscriber) throws Exception {
             this.acceptAudio=new AcceptAudio((int) sampleRate,subscriber);
     }
     

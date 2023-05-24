@@ -1,8 +1,7 @@
 package com.sumasoft.stt.audio;
 
-import com.sumasoft.stt.result.Channel;
-import com.sumasoft.stt.result.ConcretSubscriber;
 import com.sumasoft.stt.result.Subscriber;
+
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
@@ -10,14 +9,10 @@ import java.io.IOException;
 public class AudioFile {
 
     public String wavFilePath = "/home/prajwal.sonawane/Desktop/shivaji.wav";
-    Channel channel;
-    ConcretSubscriber subscriber;
     AcceptAudio acceptAudio;
-
-    public AudioFile(ConcretSubscriber subscriber) throws Exception {
-        this.subscriber=subscriber;
-    }
-    public AudioFile() throws Exception {
+    Subscriber subscriber;
+    
+    public AudioFile(Subscriber subscriber) throws Exception {
         this.subscriber=subscriber;
     }
 
@@ -38,7 +33,7 @@ public class AudioFile {
             // Get the audio format from the file
             AudioFormat audioFormat = audioInputStream.getFormat();
 
-            this.acceptAudio=new AcceptAudio((int) audioFormat.getSampleRate(),this.subscriber);
+            this.acceptAudio=new AcceptAudio((int) audioFormat.getSampleRate(),subscriber);
             // Open the audio line for playback
             SourceDataLine line = AudioSystem.getSourceDataLine(audioFormat);
             line.open(audioFormat);

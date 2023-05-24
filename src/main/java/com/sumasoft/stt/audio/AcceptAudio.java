@@ -2,7 +2,6 @@ package com.sumasoft.stt.audio;
 
 import com.sumasoft.stt.client.AudioClient;
 import com.sumasoft.stt.result.Channel;
-import com.sumasoft.stt.result.ConcretSubscriber;
 import com.sumasoft.stt.result.Subscriber;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -12,12 +11,10 @@ import java.net.URI;
 
 public class AcceptAudio {
     public static final Logger logger= LoggerFactory.getLogger(AcceptAudio.class);
-
-
     AudioClient client;
-    Channel channel;
-
-    public AcceptAudio(int sampleRate, ConcretSubscriber subscriber) throws Exception{
+    public Channel channel;
+    
+    public AcceptAudio(int sampleRate, Subscriber subscriber) throws Exception{
         getSysteminfo();
         this.channel=new Channel();
         addSubscriber(subscriber);
@@ -34,10 +31,7 @@ public class AcceptAudio {
         //  outer.put("config",conf.put("num_channels", 1));
         client.send(outer.toString());
     }
-    public void addSubscriber(ConcretSubscriber subscriber){
-        this.channel.subscriber(subscriber);
-    }
-
+    
     public void send(byte[] b){
         client.send(b);
     }
@@ -50,5 +44,9 @@ public class AcceptAudio {
         logger.info("System username :"+System.getProperty("user.name"));
         logger.info("--------------------- System Information ---------------------");
 
+    }
+    
+    public void addSubscriber(Subscriber subscriber){
+        this.channel.addSubscriber(subscriber);
     }
 }

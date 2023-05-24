@@ -1,38 +1,25 @@
 package com.sumasoft.stt.result;
 
-import com.sumasoft.stt.client.AudioClient;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
- * Those who subsciber Channel will recives update
+ * It maintain List of subscibers and notify the subscriber
  */
-//Observer design pattern
 public class Channel {
-    public static final Logger logger= LoggerFactory.getLogger(Channel.class);
-
-    /**
-     * list of subscribers who subscribe Channel
-     */
-    public List<ConcretSubscriber> subs=new ArrayList<>();
     
-    public void subscriber(ConcretSubscriber subscriber){
-        this.subs.add(subscriber);
-        logger.info("Subscriber added :");
+    private List<Subscriber> subs=new ArrayList<>();
+    
+    public void addSubscriber(Subscriber subscriber){
+        subs.add(subscriber);
     }
-
-    public void Unsubscriber(ConcretSubscriber subscriber){
-        this.subs.remove(subscriber);
-        logger.info("Subcriber removed :");
+    
+    public void removeSubscriber(Subscriber subscriber){
+        subs.remove(subscriber);
     }
     
     public void notifySubscriber(String message){
-        for(ConcretSubscriber subscriber:subs){
+        for(Subscriber subscriber:subs){
             subscriber.update(message);
         }
-       // logger.info("Notification send to subscribers");
     }
 }

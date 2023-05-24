@@ -1,10 +1,8 @@
 package com.sumasoft.stt;
 
-import com.sumasoft.stt.audio.AudioConfig;
 import com.sumasoft.stt.audio.AudioFile;
-import com.sumasoft.stt.audio.Microphone;
 import com.sumasoft.stt.config.AppConfig;
-import com.sumasoft.stt.result.ConcretSubscriber;
+import com.sumasoft.stt.result.Channel;
 import com.sumasoft.stt.result.Subscriber;
 import com.sumasoft.stt.user.AunthenticateUser;
 import org.slf4j.Logger;
@@ -13,6 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+
 import javax.sound.sampled.LineUnavailableException;
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -29,13 +28,12 @@ public class SpeachToTextApplication {
 		getSysteminfo();
 		applicationContext.getEnvironment().getProperty("myapp.name");
 		AunthenticateUser aunthenticateUser=new AunthenticateUser();
-		ConcretSubscriber s1=new ConcretSubscriber("Prajwal");
-
+		Subscriber subscriber=Subscriber.getSubscriber("Prajwal");
 		if(aunthenticateUser.aunthenticateUser("98d0c598-eb03-11ed-a05b-0242ac120003")){
 			logger.info("User Authenticated Sucessfully");
 
 			try{
-//				Microphone microphone=new Microphone(s1);
+//				Microphone microphone=new Microphone();
 //				microphone.startMicrophone();
 			}
 			catch (Exception e){
@@ -43,7 +41,7 @@ public class SpeachToTextApplication {
 			}
 			
 			try {
-				AudioFile audioFile=new AudioFile(s1);
+				AudioFile audioFile=new AudioFile(subscriber);
 				audioFile.sendAudio();
 			}
 			catch (Exception e){
