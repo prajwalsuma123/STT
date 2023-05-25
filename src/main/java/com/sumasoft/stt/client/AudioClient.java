@@ -9,10 +9,10 @@ import java.net.URI;
 
 public class AudioClient extends WebSocketClient {
     public static final Logger logger= LoggerFactory.getLogger(AudioClient.class);
-    ResultNotifiable abstractNotifiable;
-    public AudioClient(URI serverUri, ResultNotifiable abstractNotifiable) {
+    ResultNotifiable resultNotifiable;
+    public AudioClient(URI serverUri, ResultNotifiable resultNotifiable) {
         super(serverUri);
-        this.abstractNotifiable=abstractNotifiable;
+        this.resultNotifiable=resultNotifiable;
     }
     
     
@@ -24,10 +24,10 @@ public class AudioClient extends WebSocketClient {
     @Override
     public void onMessage(String s) {
         if(s.contains("result")){
-            this.abstractNotifiable.resultText(s);
+            this.resultNotifiable.resultText(s);
         }
         else {
-            this.abstractNotifiable.partialText(s);
+            this.resultNotifiable.partialText(s);
         }
     }
 
