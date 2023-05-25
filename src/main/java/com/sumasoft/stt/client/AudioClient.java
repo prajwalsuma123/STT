@@ -18,7 +18,7 @@ public class AudioClient extends WebSocketClient {
     
     @Override
     public void onOpen(ServerHandshake serverHandshake) {
-        logger.info("WebSocket opened: " + serverHandshake.getHttpStatus() + " " + serverHandshake.getHttpStatusMessage());
+        logger.info("Connection opened: " + serverHandshake.getHttpStatus() + " " + serverHandshake.getHttpStatusMessage());
     }
 
     @Override

@@ -17,7 +17,6 @@ public class AcceptAudio {
         URI uri=(new URI("ws://192.168.100.37:2700"));
         client=new AudioClient(uri,resultNotifiable);
         client.connectBlocking();
-        System.out.println("Client & Server connected sucessfully");
         logger.info("Connected sucessfully");
 
         //send configuration
