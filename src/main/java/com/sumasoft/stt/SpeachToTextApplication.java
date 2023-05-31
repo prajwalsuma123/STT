@@ -1,6 +1,5 @@
 package com.sumasoft.stt;
 
-import com.sumasoft.stt.authService.Auth2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses = {SpeachToTextApplication.class,Auth2.class})
+@ComponentScan(basePackageClasses = {SpeachToTextApplication.class})
 public class SpeachToTextApplication {
 
 	public static final Logger logger= LoggerFactory.getLogger(SpeachToTextApplication.class);
