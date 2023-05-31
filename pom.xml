@@ -23,7 +23,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-	
+
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>4.11.0</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -81,7 +87,32 @@
 			<artifactId>maven-jarsigner-plugin</artifactId>
 			<version>3.0.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>6.0.9</version>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.httpcomponents</groupId>-->
+<!--			<artifactId>httpcore</artifactId>-->
+<!--			<version>4.4.14</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.httpcomponents</groupId>-->
+<!--			<artifactId>httpclient</artifactId>-->
+<!--			<version>4.5.13</version>-->
+<!--		</dependency>-->
+
+<!--		OkHTTP -->
 		
+
 
 	</dependencies>
 	
