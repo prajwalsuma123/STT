@@ -17,13 +17,14 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
 public class Auth {
-    ObjectMapper objectMapper;
+    public static ObjectMapper objectMapper;
     public Auth(){
-
-        this.objectMapper=new ObjectMapper();
+    }
+    static {
+        objectMapper=new ObjectMapper();
     }
 
-    public boolean isValidUser(String email){
+    public static boolean isValidUser(String email){
         try{
 
             // Create a trust manager that accepts all certificates
@@ -104,7 +105,7 @@ public class Auth {
         return false;
     }
 
-    private boolean verifyToken(String tokenString) throws Exception{
+    private static boolean verifyToken(String tokenString) throws Exception{
 
         URL url = new URL("https://192.168.221.41:3000/auth/verify-token");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
