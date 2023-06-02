@@ -15,6 +15,10 @@ public class SpeachToTextApplication {
 
 	public static void main(String[] args) throws Exception {
 		ApplicationContext applicationContext= SpringApplication.run(SpeachToTextApplication.class, args);
+
+//		ExecutionContext.read();
+
+
 	}
 
 
