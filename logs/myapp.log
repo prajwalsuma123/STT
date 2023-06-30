@@ -1,70 +1,535 @@
-2023-05-12 10:41:33.261 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 15730 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
-2023-05-12 10:41:33.267 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-12 10:41:34.039 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 1.141 seconds (JVM running for 1.597)
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
-2023-05-12 10:41:34.042 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:41:34.043 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
-2023-05-12 10:41:34.043 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
-2023-05-12 10:41:34.196 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
-2023-05-12 10:41:34.196 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
-2023-05-12 10:42:40.324 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 15905 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
-2023-05-12 10:42:40.327 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-12 10:42:40.923 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.968 seconds (JVM running for 1.425)
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
-2023-05-12 10:42:40.926 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:42:40.927 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
-2023-05-12 10:42:40.927 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
-2023-05-12 10:42:41.030 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
-2023-05-12 10:42:41.031 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
-2023-05-12 10:43:18.963 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 16055 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
-2023-05-12 10:43:18.965 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-12 10:43:19.588 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.986 seconds (JVM running for 1.468)
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
-2023-05-12 10:43:19.592 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:43:19.593 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
-2023-05-12 10:43:19.593 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
-2023-05-12 10:43:19.701 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
-2023-05-12 10:43:19.702 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
-2023-05-12 10:52:15.843 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 16767 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
-2023-05-12 10:52:15.845 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-12 10:52:16.463 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.913 seconds (JVM running for 1.899)
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
-2023-05-12 10:52:16.467 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
-2023-05-12 10:52:16.468 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:52:16.469 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
-2023-05-12 10:52:16.470 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
-2023-05-12 10:52:16.579 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
-2023-05-12 10:52:16.579 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
-2023-05-12 10:53:01.478 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 16970 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
-2023-05-12 10:53:01.480 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
-2023-05-12 10:53:02.262 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 1.294 seconds (JVM running for 1.802)
-2023-05-12 10:53:02.265 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
-2023-05-12 10:53:02.266 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
-2023-05-12 10:53:02.267 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
-2023-05-12 10:53:02.267 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
-2023-05-12 10:53:02.371 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
-2023-05-12 10:53:02.371 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-24 11:21:16.815 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 109693 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
+2023-05-24 11:21:16.819 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-24 11:21:17.173 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.619 seconds (JVM running for 0.996)
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
+2023-05-24 11:21:17.176 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-24 11:21:17.177 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
+2023-05-24 11:21:17.177 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
+2023-05-24 11:21:17.281 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
+2023-05-24 11:21:17.281 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - --------------------- System Information ---------------------
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Operating system :Linux
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Java version :1.8.0_362
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Operating system architecture :amd64
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - System username :prajwal.sonawane
+2023-05-24 11:21:17.291 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - --------------------- System Information ---------------------
+2023-05-24 11:21:17.382 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - WebSocket opened: 101 Switching Protocols
+2023-05-24 11:21:17.383 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Connected sucessfully
+2023-05-24 11:21:19.516 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.517 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.517 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.557 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.557 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.571 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.571 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.624 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.624 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.624 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.624 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.624 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.625 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.662 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.662 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.662 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:19.681 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.772 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.772 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.772 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.772 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.772 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.785 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.785 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.786 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.838 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:21.839 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.966 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.967 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.967 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.967 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.967 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.975 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:23.976 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also read"
+}
+2023-05-24 11:21:23.976 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also read"
+}
+2023-05-24 11:21:23.976 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.976 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.976 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.977 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.977 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.977 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:23.977 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:24.001 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:24.002 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "also referred"
+}
+2023-05-24 11:21:26.226 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "result" : [{
+      "conf" : 0.980709,
+      "end" : 4.710006,
+      "start" : 4.260000,
+      "word" : "also"
+    }, {
+      "conf" : 0.793810,
+      "end" : 5.099947,
+      "start" : 4.710006,
+      "word" : "referred"
+    }, {
+      "conf" : 0.478292,
+      "end" : 5.580000,
+      "start" : 5.100130,
+      "word" : "as"
+    }],
+  "text" : "also referred as"
+}
+2023-05-24 11:21:26.226 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.226 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.227 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.227 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.227 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.227 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.227 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:26.240 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "was"
+}
+2023-05-24 11:21:26.255 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "was"
+}
+2023-05-24 11:21:28.351 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was"
+}
+2023-05-24 11:21:28.351 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was"
+}
+2023-05-24 11:21:28.351 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.377 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.378 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.378 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.378 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and"
+}
+2023-05-24 11:21:28.378 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:28.378 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:28.430 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:30.604 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:30.604 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:30.604 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler"
+}
+2023-05-24 11:21:30.605 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and"
+}
+2023-05-24 11:21:32.862 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.863 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of both"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of both"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.864 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.886 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was born and indian ruler and member of"
+}
+2023-05-24 11:21:32.886 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "result" : [{
+      "conf" : 0.391555,
+      "end" : 6.720396,
+      "start" : 6.570525,
+      "word" : "she"
+    }, {
+      "conf" : 1.000000,
+      "end" : 8.129273,
+      "start" : 7.799362,
+      "word" : "was"
+    }, {
+      "conf" : 0.999945,
+      "end" : 8.700000,
+      "start" : 8.130000,
+      "word" : "born"
+    }, {
+      "conf" : 0.945999,
+      "end" : 9.390000,
+      "start" : 9.120000,
+      "word" : "an"
+    }, {
+      "conf" : 0.999940,
+      "end" : 9.810000,
+      "start" : 9.390421,
+      "word" : "indian"
+    }, {
+      "conf" : 0.983912,
+      "end" : 10.350000,
+      "start" : 9.810000,
+      "word" : "ruler"
+    }, {
+      "conf" : 0.994934,
+      "end" : 10.920917,
+      "start" : 10.650000,
+      "word" : "and"
+    }, {
+      "conf" : 0.826185,
+      "end" : 10.979337,
+      "start" : 10.920917,
+      "word" : "a"
+    }, {
+      "conf" : 1.000000,
+      "end" : 11.370000,
+      "start" : 10.979337,
+      "word" : "member"
+    }, {
+      "conf" : 1.000000,
+      "end" : 11.729979,
+      "start" : 11.370000,
+      "word" : "of"
+    }, {
+      "conf" : 0.530236,
+      "end" : 12.270000,
+      "start" : 11.910000,
+      "word" : "both"
+    }],
+  "text" : "she was born an indian ruler and a member of both"
+}
+2023-05-24 11:21:32.886 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.887 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.888 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:32.888 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:34.992 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : ""
+}
+2023-05-24 11:21:34.992 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:34.992 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:34.992 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:34.992 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out it"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out it"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own"
+}
+2023-05-24 11:21:35.014 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own"
+}
+2023-05-24 11:21:35.015 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own"
+}
+2023-05-24 11:21:35.015 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own"
+}
+2023-05-24 11:21:35.015 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own independent"
+}
+2023-05-24 11:21:35.015 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own independent"
+}
+2023-05-24 11:21:35.096 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own independent"
+}
+2023-05-24 11:21:35.222 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own independent"
+}
+2023-05-24 11:21:35.263 [WebSocketConnectReadThread-18] INFO  com.sumasoft.stt.client.AudioClient - Message from Server :{
+  "partial" : "she was carried out its own independent kingdom"
+}
+2023-05-24 11:40:05.017 [main] INFO  c.s.stt.SpeachToTextApplication - Starting SpeachToTextApplication using Java 1.8.0_362 on LAP-PRAJWALS with PID 111413 (/home/prajwal.sonawane/Desktop/Speach-to-Text/target/classes started by prajwal.sonawane in /home/prajwal.sonawane/Desktop/Speach-to-Text)
+2023-05-24 11:40:05.020 [main] INFO  c.s.stt.SpeachToTextApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-24 11:40:05.381 [main] INFO  c.s.stt.SpeachToTextApplication - Started SpeachToTextApplication in 0.641 seconds (JVM running for 0.949)
+2023-05-24 11:40:05.382 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system :Linux
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - Java version :1.8.0_362
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - Operating system architecture :amd64
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - System username :prajwal.sonawane
+2023-05-24 11:40:05.383 [main] INFO  c.s.stt.SpeachToTextApplication - --------------------- System Information ---------------------
+2023-05-24 11:40:05.384 [main] INFO  c.s.stt.user.AunthenticateUser - User Authenticating
+2023-05-24 11:40:05.384 [main] INFO  c.s.stt.user.AunthenticateUser - reading user data from file
+2023-05-24 11:40:05.504 [main] INFO  c.s.stt.user.AunthenticateUser - read data sucessfully from file
+2023-05-24 11:40:05.504 [main] INFO  c.s.stt.SpeachToTextApplication - User Authenticated Sucessfully
+2023-05-24 11:40:05.514 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - --------------------- System Information ---------------------
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Operating system :Linux
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Java version :1.8.0_362
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Operating system architecture :amd64
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Java Home :/usr/lib/jvm/java-8-openjdk-amd64/jre
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - System username :prajwal.sonawane
+2023-05-24 11:40:05.515 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - --------------------- System Information ---------------------
+2023-05-24 11:40:05.567 [WebSocketConnectReadThread-16] INFO  com.sumasoft.stt.client.AudioClient - WebSocket opened: 101 Switching Protocols
+2023-05-24 11:40:05.567 [main] INFO  com.sumasoft.stt.audio.AcceptAudio - Connected sucessfully
